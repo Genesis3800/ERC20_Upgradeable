@@ -19,4 +19,7 @@ contract myTokenUpgradeable is Initializable, ERC20Upgradeable, OwnableUpgradeab
         __Ownable_init();
     }
 
+    function mint(address to, uint amount) external onlyOwner {
+        _mint(to, amount);
+    }
 }
