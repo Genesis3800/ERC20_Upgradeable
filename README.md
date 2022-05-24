@@ -1,15 +1,7 @@
-# Basic Sample Hardhat Project
+# Upgradeable ERC20 Smart contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This is a hardhat project that implements an upgradeable ERC20 Smart contract using the OpenZeppelin library.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Update at 24/5/2022-
+The contracts have been implemented, but the test is not working correctly. Need to look at ethers Documentation to get parseEther() function working correctly.
