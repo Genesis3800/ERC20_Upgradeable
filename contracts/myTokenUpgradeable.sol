@@ -7,9 +7,8 @@ import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
 contract myTokenUpgradeable is Initializable, ERC20Upgradeable, OwnableUpgradeable {
 
-    constructor() {
-    _disableInitializers();
-}
+  //  constructor() initializer{}
+
   
     // constructor() ERC20("Priyank_Upgradeable", "PU") {
     // }
